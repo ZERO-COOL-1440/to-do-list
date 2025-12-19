@@ -85,7 +85,7 @@ body {
     transition: width 0.3s ease;
 }
 
-#numbers{
+#numbers {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -234,28 +234,32 @@ body {
     background: #ffbf00;
 }
 
-@media (max-width:600px){
-    .container{
+@media (max-width:600px) {
+    .container {
         margin: 0 20px;
         padding: 0 20px;
     }
 
-    .todo-app{
+    .todo-app {
         padding: 1.5rem;
         gap: 20px;
     }
 
-    #numbers{
+    #numbers {
         width: 60px;
         height: 60px;
         font-size: 1rem;
     }
 
-    .input-area input{
+    .input-area input {
+        font-size: 0.8rem;
+    }
+
+    #task-list {
         font-size: 1rem;
     }
 
-    #task-list{
-        font-size: 1rem;
+    #task-input {
+        width: 20%;
     }
 }
