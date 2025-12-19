@@ -38,7 +38,7 @@ body {
     justify-content: center;
     flex-direction: column;
     gap: 30px;
-    color: #fff;
+    color: #191919;
     border-radius: 20px;
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
     border: 3px solid rgba(255, 255, 255, 0.18);
@@ -65,7 +65,7 @@ body {
 }
 
 .details h3 {
-    color: #fff;
+    color: #111;
 }
 
 #progressbar {
@@ -113,11 +113,11 @@ body {
     outline: none;
     border-radius: 22px;
     background: rgba(255, 194, 209, 0.3);
-    color: #dbdbdb;
+    color: #191919;
 }
 
 .input-area input::placeholder {
-    color: #bcbcbc;
+    color: #191919;
 }
 
 .input-area button {
@@ -127,7 +127,7 @@ body {
     margin-left: 10px;
     padding: 8px;
     border-radius: 50%;
-    color: #fff;
+    color: #191919;
     font-size: 1.1rem;
     background: rgba(255, 194, 209, 0.3);
     border: 2px solid rgba(255, 255, 255, 0.18);
